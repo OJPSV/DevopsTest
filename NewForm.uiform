@@ -4,10 +4,24 @@
     "Kind": "FormIo"
   },
   "DesignProperties": {
-    "Title": "NewForm"
+    "Title": "NewForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
   },
   "Data": {
     "components": [
+      {
+        "label": "Number",
+        "tableView": false,
+        "delimiter": false,
+        "requireDecimal": false,
+        "truncateMultipleSpaces": false,
+        "key": "number",
+        "type": "number",
+        "input": true
+      },
       {
         "type": "button",
         "label": "Submit",
